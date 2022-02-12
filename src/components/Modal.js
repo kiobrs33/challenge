@@ -35,7 +35,7 @@ export const Modal = ({ modal, setModal }) => {
         if (!Object.keys(result).length) {
             handleAdd()
             handleReset();
-            dispatch({ type: types.initial });
+            
             setModal(!modal);
         }
     }
